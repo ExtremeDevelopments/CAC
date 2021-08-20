@@ -2,9 +2,14 @@
   text-align: center;
 }
 
+* {
+  background-color: #282c34;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  background: none !important;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -24,6 +29,16 @@
   color: white;
 }
 
+.App-paragraph {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +50,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+button.current-hurricanes {
+  background-color: aquamarine;
+  border: none;
+  height: 50px;
+  border-radius: 50px;
 }
